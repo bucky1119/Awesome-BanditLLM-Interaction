@@ -1,0 +1,700 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "expected_counts": {
+    "unique_studies": 153,
+    "directions": 2,
+    "stages": 8,
+    "components": 18,
+    "research_streams": 63,
+    "assignments": 230
+  },
+  "directions": [
+    {
+      "name": "Bandit-Enhanced Large Language Models",
+      "stages": [
+        {
+          "name": "Pre-training",
+          "components": [
+            {
+              "name": "Pre-training",
+              "research_streams": [
+                {
+                  "name": "Adaptive data mixing",
+                  "cite_keys": [
+                    "Alb23"
+                  ]
+                },
+                {
+                  "name": "Pre-training configuration optimization",
+                  "cite_keys": [
+                    "Urt22"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Post-training",
+          "components": [
+            {
+              "name": "Fine-tuning",
+              "research_streams": [
+                {
+                  "name": "Data and curriculum scheduling",
+                  "cite_keys": [
+                    "Do25",
+                    "Lu26",
+                    "Mck26",
+                    "Shi25b",
+                    "Yan26"
+                  ]
+                },
+                {
+                  "name": "Bandit-informed policy training",
+                  "cite_keys": [
+                    "Che25",
+                    "Hu26",
+                    "Nie24",
+                    "Sch25b"
+                  ]
+                },
+                {
+                  "name": "Online adaptation and co-evolving targets",
+                  "cite_keys": [
+                    "Gon23",
+                    "He26",
+                    "Xia24d"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alignment",
+              "research_streams": [
+                {
+                  "name": "Active preference acquisition",
+                  "cite_keys": [
+                    "Das24",
+                    "Dwa24",
+                    "Ji24b",
+                    "Liu24",
+                    "Meh23",
+                    "Sch24"
+                  ]
+                },
+                {
+                  "name": "Exploration-aware preference optimization",
+                  "cite_keys": [
+                    "Bai25",
+                    "Li25c",
+                    "Li25d",
+                    "Xie24",
+                    "Xio23",
+                    "Zha24b"
+                  ]
+                },
+                {
+                  "name": "Preference and supervision control",
+                  "cite_keys": [
+                    "Aza23",
+                    "Dua25",
+                    "Kim26",
+                    "Lau24",
+                    "Ngu24b"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Utilization",
+          "components": [
+            {
+              "name": "Prompting",
+              "research_streams": [
+                {
+                  "name": "Prompt and demonstration selection",
+                  "cite_keys": [
+                    "Li26",
+                    "Lin23",
+                    "Lin24b",
+                    "Lu25",
+                    "Shi24",
+                    "Wan25d",
+                    "Wu24b",
+                    "Wu25"
+                  ]
+                },
+                {
+                  "name": "Prompt generation and refinement",
+                  "cite_keys": [
+                    "Ash25",
+                    "Hon26",
+                    "Kon25",
+                    "Par25"
+                  ]
+                },
+                {
+                  "name": "Contextual and personalized prompting",
+                  "cite_keys": [
+                    "Che24b",
+                    "Cho26",
+                    "Ish26",
+                    "Li26e",
+                    "Mon24",
+                    "Nie24",
+                    "Ram25"
+                  ]
+                },
+                {
+                  "name": "Offline and counterfactual prompt learning",
+                  "cite_keys": [
+                    "Kiy25",
+                    "Kiy25b"
+                  ]
+                },
+                {
+                  "name": "Joint prompt and system control",
+                  "cite_keys": [
+                    "Fu24",
+                    "Li25e",
+                    "Mah25",
+                    "You26"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Retrieval",
+              "research_streams": [
+                {
+                  "name": "Retrieval configuration selection",
+                  "cite_keys": [
+                    "Dai25",
+                    "Fu24",
+                    "Tan24e"
+                  ]
+                },
+                {
+                  "name": "Context and evidence selection",
+                  "cite_keys": [
+                    "Du26",
+                    "Pet25",
+                    "Tan24c"
+                  ]
+                },
+                {
+                  "name": "Adaptive retrieval computation",
+                  "cite_keys": [
+                    "Pon26"
+                  ]
+                },
+                {
+                  "name": "Dynamic memory retrieval",
+                  "cite_keys": [
+                    "Zha26j"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Routing",
+              "research_streams": [
+                {
+                  "name": "Contextual model routing",
+                  "cite_keys": [
+                    "Bao26",
+                    "Cha25b",
+                    "Chi25",
+                    "Chu26",
+                    "Hu24b",
+                    "Ngu24",
+                    "Ngu26",
+                    "Pan25",
+                    "Poo25",
+                    "Sri26",
+                    "Tsa26",
+                    "Wan25",
+                    "Zha26",
+                    "Zil26"
+                  ]
+                },
+                {
+                  "name": "Cost- and resource-aware routing",
+                  "cite_keys": [
+                    "Bae26",
+                    "Chu26",
+                    "Dai24",
+                    "Hua26c",
+                    "Li25",
+                    "Ngu24",
+                    "Pat26",
+                    "Tab26",
+                    "Wei25",
+                    "Wu26b",
+                    "Zha26e",
+                    "Zu26"
+                  ]
+                },
+                {
+                  "name": "Sequential and combinatorial routing",
+                  "cite_keys": [
+                    "Ata25",
+                    "Bel26",
+                    "Hou25",
+                    "Hu25",
+                    "Hua24",
+                    "Hua26b",
+                    "Jad26",
+                    "Kim26b",
+                    "Li25e",
+                    "Li26d",
+                    "Liu26b",
+                    "Rau25",
+                    "Ren26",
+                    "Tan24b",
+                    "Xu26"
+                  ]
+                },
+                {
+                  "name": "Adaptive routing under distribution shift",
+                  "cite_keys": [
+                    "Che24",
+                    "Li25b",
+                    "Rau25",
+                    "Tab26",
+                    "Tan24b",
+                    "Wan25",
+                    "Wu25b",
+                    "Xia24d"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Generation",
+              "research_streams": [
+                {
+                  "name": "Decoding-policy control",
+                  "cite_keys": [
+                    "Hou25",
+                    "Hua26b",
+                    "Mah25",
+                    "Sri25",
+                    "Su26"
+                  ]
+                },
+                {
+                  "name": "Candidate and response selection",
+                  "cite_keys": [
+                    "Lau24",
+                    "Qu25",
+                    "Shi25"
+                  ]
+                },
+                {
+                  "name": "Test-time compute allocation",
+                  "cite_keys": [
+                    "Kar26",
+                    "Ngu24b",
+                    "Zuo25"
+                  ]
+                },
+                {
+                  "name": "Structured generation control",
+                  "cite_keys": [
+                    "Ran25",
+                    "Son25"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Caching",
+              "research_streams": [
+                {
+                  "name": "Response-cache management",
+                  "cite_keys": [
+                    "Ata26",
+                    "Yan25c"
+                  ]
+                },
+                {
+                  "name": "Semantic caching",
+                  "cite_keys": [
+                    "Liu25"
+                  ]
+                },
+                {
+                  "name": "Model-state caching",
+                  "cite_keys": [
+                    "Li26d"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Agent Orchestration",
+              "research_streams": [
+                {
+                  "name": "Agent and tool selection",
+                  "cite_keys": [
+                    "Cha25b",
+                    "Gua26",
+                    "Jin26b",
+                    "Tan26b",
+                    "Yu26b"
+                  ]
+                },
+                {
+                  "name": "Workflow and topology control",
+                  "cite_keys": [
+                    "Ata25",
+                    "Che26b",
+                    "Dai24",
+                    "Hov24",
+                    "Jad26",
+                    "Sun26"
+                  ]
+                },
+                {
+                  "name": "Adaptive computation allocation",
+                  "cite_keys": [
+                    "Bel26",
+                    "Tan24",
+                    "Xin26"
+                  ]
+                },
+                {
+                  "name": "Trust, verification, and integrity control",
+                  "cite_keys": [
+                    "Sun26",
+                    "Xia24",
+                    "You26"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluation",
+          "components": [
+            {
+              "name": "Adaptive Evaluation",
+              "research_streams": [
+                {
+                  "name": "Best-model identification",
+                  "cite_keys": [
+                    "Lyu26",
+                    "Tol26",
+                    "Zho24"
+                  ]
+                },
+                {
+                  "name": "Ranking and Pareto identification",
+                  "cite_keys": [
+                    "Xue26",
+                    "Zou26"
+                  ]
+                },
+                {
+                  "name": "Preference-based evaluation",
+                  "cite_keys": [
+                    "Gha26",
+                    "Sah26"
+                  ]
+                },
+                {
+                  "name": "Adaptive diagnostic and search evaluation",
+                  "cite_keys": [
+                    "Dai25b",
+                    "Kar26",
+                    "Kri24",
+                    "Pan25b"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LLM-Enhanced Bandits",
+      "stages": [
+        {
+          "name": "Representation",
+          "components": [
+            {
+              "name": "Context Representation",
+              "research_streams": [
+                {
+                  "name": "Semantic context encoding",
+                  "cite_keys": [
+                    "Bah23",
+                    "Dwa24",
+                    "Gon23",
+                    "Lin23",
+                    "Tan24b"
+                  ]
+                },
+                {
+                  "name": "Task-specific feature construction",
+                  "cite_keys": [
+                    "Cho26",
+                    "Wan25",
+                    "Tan26b",
+                    "Zha26"
+                  ]
+                },
+                {
+                  "name": "Interaction-state representation",
+                  "cite_keys": [
+                    "Li26e",
+                    "Tan24c",
+                    "Wu25b",
+                    "Yu26b"
+                  ]
+                },
+                {
+                  "name": "Joint context--configuration representation",
+                  "cite_keys": [
+                    "Hua26b",
+                    "Zha26e"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Action Modeling",
+              "research_streams": [
+                {
+                  "name": "Semantic action representation",
+                  "cite_keys": [
+                    "Chi25",
+                    "Hua26b",
+                    "Kiy25",
+                    "Kiy25b",
+                    "Li26",
+                    "Wu24b"
+                  ]
+                },
+                {
+                  "name": "Structured action-space modeling",
+                  "cite_keys": [
+                    "Do25",
+                    "Hon26",
+                    "Mck26"
+                  ]
+                },
+                {
+                  "name": "Dynamic action generation",
+                  "cite_keys": [
+                    "He26",
+                    "Ish26",
+                    "Kar26",
+                    "Zha26j"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Learning",
+          "components": [
+            {
+              "name": "Warm Start",
+              "research_streams": [
+                {
+                  "name": "Synthetic interaction pretraining",
+                  "cite_keys": [
+                    "Ala24",
+                    "Bay26"
+                  ]
+                },
+                {
+                  "name": "LLM-informed Bayesian priors",
+                  "cite_keys": [
+                    "Fen26",
+                    "Lee26",
+                    "Wu25b"
+                  ]
+                },
+                {
+                  "name": "Guided initialization and early interaction",
+                  "cite_keys": [
+                    "Che24",
+                    "Dua25",
+                    "Yu26b"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Reward Estimation",
+              "research_streams": [
+                {
+                  "name": "LLM-based outcome prediction",
+                  "cite_keys": [
+                    "Ber26",
+                    "Fel24",
+                    "Sun25"
+                  ]
+                },
+                {
+                  "name": "Proxy augmentation and correction",
+                  "cite_keys": [
+                    "Ala24",
+                    "Ao26",
+                    "Ma26",
+                    "Per26"
+                  ]
+                },
+                {
+                  "name": "Language-to-reward construction",
+                  "cite_keys": [
+                    "Beh24",
+                    "Ver24"
+                  ]
+                },
+                {
+                  "name": "Semantic surrogate evaluation",
+                  "cite_keys": [
+                    "Cho26",
+                    "Du26",
+                    "Kar26"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Environment Modeling",
+              "research_streams": [
+                {
+                  "name": "Textual posterior and hypothesis modeling",
+                  "cite_keys": [
+                    "Aru25"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decision",
+          "components": [
+            {
+              "name": "Exploration",
+              "research_streams": [
+                {
+                  "name": "LLM-informed uncertainty exploration",
+                  "cite_keys": [
+                    "Ber26",
+                    "Fel24",
+                    "Sun25"
+                  ]
+                },
+                {
+                  "name": "Semantic exploration-space restriction",
+                  "cite_keys": [
+                    "Har25"
+                  ]
+                },
+                {
+                  "name": "Direct exploration control",
+                  "cite_keys": [
+                    "Che25",
+                    "Cur23"
+                  ]
+                },
+                {
+                  "name": "Model-based information exploration",
+                  "cite_keys": [
+                    "Aru25"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Action Selection",
+              "research_streams": [
+                {
+                  "name": "Direct LLM action selection",
+                  "cite_keys": [
+                    "Har25",
+                    "Haz25",
+                    "Xia24"
+                  ]
+                },
+                {
+                  "name": "Gated and validated LLM recommendations",
+                  "cite_keys": [
+                    "Cao26",
+                    "Xia24"
+                  ]
+                },
+                {
+                  "name": "LLM-guided candidate generation",
+                  "cite_keys": [
+                    "Har25",
+                    "Liu24"
+                  ]
+                },
+                {
+                  "name": "Proxy- and diagnosis-guided allocation",
+                  "cite_keys": [
+                    "Ma26",
+                    "Sun26"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Feedback",
+          "components": [
+            {
+              "name": "Feedback Interpretation",
+              "research_streams": [
+                {
+                  "name": "Scalar and binary feedback judging",
+                  "cite_keys": [
+                    "Chu26",
+                    "Ram25"
+                  ]
+                },
+                {
+                  "name": "Pairwise preference interpretation",
+                  "cite_keys": [
+                    "Wu25"
+                  ]
+                },
+                {
+                  "name": "Semantic feedback shaping and propagation",
+                  "cite_keys": [
+                    "Ngu26",
+                    "Wan26b"
+                  ]
+                },
+                {
+                  "name": "Structured diagnosis and attribution",
+                  "cite_keys": [
+                    "Beh24",
+                    "Sun26"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
