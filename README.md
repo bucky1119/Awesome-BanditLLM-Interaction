@@ -119,7 +119,7 @@ The 153 unique studies correspond to 230 taxonomy assignments because multi-comp
 
 ## 📚 Literature Navigation
 
-A study may appear in multiple research streams when it contains multiple substantive intervention mechanisms. The machine-readable taxonomy contains 153 unique studies and 230 assignments. The manuscript synthesis tables below preserve the paper's more compact presentation: they retain all 153 studies across 63 research streams while consolidating five closely related utilization placements, resulting in 225 linked reference placements.
+A study may appear in multiple research streams when it contains multiple substantive intervention mechanisms. The machine-readable taxonomy contains 153 unique studies and 230 assignments. The current manuscript synthesis tables below contain 64 research streams and 224 reference placements across 152 of those studies; the remaining included study is retained as a clearly identified corpus cross-reference under Post-training.
 
 <!-- BEGIN AUTO-GENERATED LITERATURE NAVIGATION -->
 Browse the component-level synthesis below. Each stage expands into the same four-column structure used in the survey: Component, Research Stream, intervention mechanism, and References. Reference labels link directly to a verified arXiv record or, when no arXiv identifier is available, the official publication page.
@@ -158,7 +158,7 @@ Browse the component-level synthesis below. Each stage expands into the same fou
 </details>
 
 <details>
-<summary><strong>Post-training</strong> — 6 research streams · 29 papers</summary>
+<summary><strong>Post-training</strong> — 7 research streams · 28 papers</summary>
 
 <br>
 
@@ -174,38 +174,45 @@ Browse the component-level synthesis below. Each stage expands into the same fou
 <tbody>
 <tr>
 <td rowspan="3"><strong>Fine-tuning</strong></td>
-<td>Data and curriculum scheduling</td>
-<td>Schedule samples, datasets, tasks, curricula, or rollouts</td>
+<td>Adaptive curriculum and training-data scheduling</td>
+<td>Adapt datasets, examples, rollouts, or tasks to the evolving learning state</td>
 <td><a href="https://doi.org/10.18653/v1/2026.findings-acl.171" title="SPaCe: Unlocking Sample-Efficient Large Language Models Training With Self-Pace Curriculum Learning">Do et al. (2026)</a>; <a href="https://arxiv.org/abs/2602.08499" title="Contextual Rollout Bandits for Reinforcement Learning with Verifiable Rewards">Lu et al. (2026)</a>; <a href="https://arxiv.org/abs/2606.19750" title="Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models">McKenzie et al. (2026)</a>; <a href="https://doi.org/10.18653/v1/2026.findings-acl.1972" title="DynamixSFT: Dynamic Mixture Optimization of Instruction Tuning Collections">Shin et al. (2026)</a>; <a href="https://doi.org/10.1145/3770855.3817990" title="Distribution-Value Coevolution for Adaptive RLHF Data Scheduling">Yang et al. (2026)</a></td>
 </tr>
 <tr>
-<td>Bandit-informed policy training</td>
-<td>Shape policy learning from partial-feedback signals</td>
-<td><a href="https://arxiv.org/abs/2509.24923" title="When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training">Chen et al. (2025)</a>; <a href="https://arxiv.org/abs/2601.14599" title="Rethinking Reinforcement fine-tuning of LLMs: A Multi-armed Bandit Learning Perspective">Hu et al. (2026)</a>; <a href="https://arxiv.org/abs/2410.06238" title="EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration">Nie et al. (2025)</a>; <a href="https://arxiv.org/abs/2504.16078" title="LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities">Schmied et al. (2026)</a></td>
+<td>Online experience and skill control</td>
+<td>Regulate newly generated experience, auxiliary skills, or reward-driven updates</td>
+<td><a href="https://doi.org/10.1145/3577190.3614137" title="User Feedback-based Online Learning for Intent Classification">Gönç et al. (2023)</a>; <a href="https://arxiv.org/abs/2606.01619" title="ReSkill: Reconciling Skill Creation with Policy Optimization in Agentic RL">He et al. (2026)</a>; <a href="https://arxiv.org/abs/2601.14599" title="Rethinking Reinforcement fine-tuning of LLMs: A Multi-armed Bandit Learning Perspective">Hu et al. (2026)</a></td>
 </tr>
 <tr>
-<td>Online adaptation and co-evolving targets</td>
-<td>Adapt models or skills with evolving online utilities</td>
-<td><a href="https://doi.org/10.1145/3577190.3614137" title="User Feedback-based Online Learning for Intent Classification">Gönç et al. (2023)</a>; <a href="https://arxiv.org/abs/2606.01619" title="ReSkill: Reconciling Skill Creation with Policy Optimization in Agentic RL">He et al. (2026)</a>; <a href="https://doi.org/10.1145/3589334.3645420" title="Which LLM to Play? Convergence-Aware Online Model Selection with Time-Increasing Bandits">Xia et al. (2024)</a></td>
+<td>Bandit-guided policy learning and co-evolution</td>
+<td>Train or control evolving decision policies under sequential reward feedback</td>
+<td><a href="https://arxiv.org/abs/2509.24923" title="When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training">Chen et al. (2025)</a>; <a href="https://arxiv.org/abs/2410.06238" title="EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration">Nie et al. (2025)</a>; <a href="https://arxiv.org/abs/2504.16078" title="LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities">Schmied et al. (2026)</a>; <a href="https://doi.org/10.1145/3589334.3645420" title="Which LLM to Play? Convergence-Aware Online Model Selection with Time-Increasing Bandits">Xia et al. (2024)</a></td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Alignment</strong></td>
+<td rowspan="4"><strong>Alignment</strong></td>
 <td>Active preference acquisition</td>
-<td>Query informative comparisons or preference feedback</td>
-<td><a href="https://doi.org/10.1007/978-3-032-06096-9_6" title="Active Preference Optimization for Sample Efficient RLHF">Das et al. (2025)</a>; <a href="https://arxiv.org/abs/2402.00396" title="Efficient Exploration for LLMs">Dwaracherla et al. (2024)</a>; <a href="https://arxiv.org/abs/2402.09401" title="Reinforcement Learning from Human Feedback with Active Queries">Ji et al. (2025)</a>; <a href="https://arxiv.org/abs/2411.01493" title="Sample-Efficient Alignment for LLMs">Liu et al. (2024)</a>; <a href="https://arxiv.org/abs/2312.00267" title="Sample Efficient Preference Alignment in LLMs via Active Exploration">Mehta et al. (2023)</a>; <a href="https://arxiv.org/abs/2410.17055" title="Optimal Design for Reward Modeling in RLHF">Scheid et al. (2024)</a></td>
+<td>Allocate limited feedback to informative contexts, responses, or comparisons</td>
+<td><a href="https://doi.org/10.1007/978-3-032-06096-9_6" title="Active Preference Optimization for Sample Efficient RLHF">Das et al. (2025)</a>; <a href="https://arxiv.org/abs/2402.00396" title="Efficient Exploration for LLMs">Dwaracherla et al. (2024)</a>; <a href="https://arxiv.org/abs/2402.09401" title="Reinforcement Learning from Human Feedback with Active Queries">Ji et al. (2025)</a>; <a href="https://arxiv.org/abs/2312.00267" title="Sample Efficient Preference Alignment in LLMs via Active Exploration">Mehta et al. (2023)</a>; <a href="https://arxiv.org/abs/2410.17055" title="Optimal Design for Reward Modeling in RLHF">Scheid et al. (2024)</a></td>
 </tr>
 <tr>
 <td>Exploration-aware preference optimization</td>
-<td>Explore uncertain preferences during alignment</td>
-<td><a href="https://arxiv.org/abs/2501.12735" title="Online Preference Alignment for Language Models via Count-based Exploration">Bai et al. (2025)</a>; <a href="https://doi.org/10.52202/085713-5567" title="Provably Efficient Online RLHF with One-Pass Reward Modeling">Li et al. (2025)</a>; <a href="https://arxiv.org/abs/2509.22633" title="Towards Efficient Online Exploration for Reinforcement Learning with Human Feedback">Li &amp; Yan (2025)</a>; <a href="https://arxiv.org/abs/2405.21046" title="Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF">Xie et al. (2025)</a>; <a href="https://arxiv.org/abs/2312.11456" title="Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-constraint">Xiong et al. (2024)</a>; <a href="https://arxiv.org/abs/2405.19332" title="Self-Exploring Language Models: Active Preference Elicitation for Online Alignment">Zhang et al. (2025)</a></td>
+<td>Expand response-space coverage through uncertainty-aware exploration</td>
+<td><a href="https://arxiv.org/abs/2501.12735" title="Online Preference Alignment for Language Models via Count-based Exploration">Bai et al. (2025)</a>; <a href="https://arxiv.org/abs/2405.21046" title="Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF">Xie et al. (2025)</a>; <a href="https://arxiv.org/abs/2312.11456" title="Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-constraint">Xiong et al. (2024)</a>; <a href="https://arxiv.org/abs/2405.19332" title="Self-Exploring Language Models: Active Preference Elicitation for Online Alignment">Zhang et al. (2025)</a></td>
 </tr>
 <tr>
-<td>Preference and supervision control</td>
-<td>Adapt preference objectives, rewards, or supervision</td>
-<td><a href="https://arxiv.org/abs/2310.12036" title="A General Theoretical Paradigm to Understand Learning from Human Preferences">Azar et al. (2024)</a>; <a href="https://arxiv.org/abs/2508.13993" title="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization">Duan et al. (2026)</a>; <a href="https://arxiv.org/abs/2605.18899" title="Don&#x27;t Let Bandit Feedback Pull Continual LLM-Recommender Updates Off Target">Kim et al. (2026)</a>; <a href="https://arxiv.org/abs/2410.14001" title="Personalized Adaptation via In-Context Preference Learning">Lau et al. (2024)</a>; <a href="https://arxiv.org/abs/2410.01735" title="LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits">Nguyen et al. (2025)</a></td>
+<td>Policy-coupled online alignment</td>
+<td>Adapt comparison collection and preference updates to the evolving policy</td>
+<td><a href="https://doi.org/10.52202/085713-5567" title="Provably Efficient Online RLHF with One-Pass Reward Modeling">Li et al. (2025)</a>; <a href="https://arxiv.org/abs/2509.22633" title="Towards Efficient Online Exploration for Reinforcement Learning with Human Feedback">Li &amp; Yan (2025)</a></td>
+</tr>
+<tr>
+<td>Adaptive supervision and feedback control</td>
+<td>Select and adapt reward signals, evidence, logged feedback, or response candidates</td>
+<td><a href="https://arxiv.org/abs/2508.13993" title="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization">Duan et al. (2026)</a>; <a href="https://arxiv.org/abs/2605.18899" title="Don&#x27;t Let Bandit Feedback Pull Continual LLM-Recommender Updates Off Target">Kim et al. (2026)</a>; <a href="https://arxiv.org/abs/2410.14001" title="Personalized Adaptation via In-Context Preference Learning">Lau et al. (2024)</a>; <a href="https://arxiv.org/abs/2411.01493" title="Sample-Efficient Alignment for LLMs">Liu et al. (2024)</a>; <a href="https://arxiv.org/abs/2410.01735" title="LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits">Nguyen et al. (2025)</a></td>
 </tr>
 </tbody>
 </table>
+
+<p><strong>Corpus cross-reference.</strong> <a href="https://arxiv.org/abs/2310.12036" title="A General Theoretical Paradigm to Understand Learning from Human Preferences">Azar et al. (2024)</a> remains included in the survey taxonomy and bibliography but is not assigned to a row in the current manuscript synthesis table.</p>
 
 </details>
 
