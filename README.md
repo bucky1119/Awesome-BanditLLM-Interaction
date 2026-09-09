@@ -1,10 +1,9 @@
 # Awesome Bandit–LLM Interaction
 
-A structured and continuously maintained collection of research on the interaction between bandit learning and large language models.
+We maintain a structured collection of research on the interaction between bandit learning and large language models.
 
 [![Papers](https://img.shields.io/badge/papers-153-539AB9?style=flat-square)](#-literature-navigation)
 [![Directions](https://img.shields.io/badge/directions-2-6C63A8?style=flat-square)](#-taxonomy)
-[![Research Streams](https://img.shields.io/badge/research_streams-63-4C956C?style=flat-square)](#-taxonomy)
 [![Coverage](https://img.shields.io/badge/coverage-through_August_15%2C_2026-D97706?style=flat-square)](#-corpus-at-a-glance)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2EA44F?style=flat-square)](LICENSE)
 
@@ -12,15 +11,15 @@ A structured and continuously maintained collection of research on the interacti
 
 ## 👋 About
 
-This companion repository supports the *Bandit–LLM Interaction* survey. It organizes work in both directions: bandit methods that improve large language model systems, and LLM capabilities that augment bandit learning. The taxonomy is the source of truth for inclusion, and all citation metadata is drawn from the supplied BibTeX database.
+We maintain this companion repository for our *Bandit–LLM Interaction* survey. We organize the literature in two directions: bandit methods that improve large language model systems, and LLM capabilities that augment bandit learning. We provide the complete classification in [`taxonomy.yaml`](taxonomy.yaml) and the corresponding citation records in [`references.bib`](references.bib).
 
 ## 📊 Corpus at a Glance
 
-> **153 unique studies · 2 directions · 8 stages · 18 components · 63 research streams · 230 taxonomy assignments**
+> **153 unique studies · 2 directions · 8 stages · 18 components**
 
-The survey corpus analyzed in the accompanying paper is frozen at **August 15, 2026** and contains **153 unique studies**. This repository may continue to incorporate newly released Bandit–LLM work after the survey cutoff.
+We froze the survey corpus at **August 15, 2026**, with **153 unique studies**. We may add newly released Bandit–LLM research after the survey cutoff as clearly marked post-survey updates.
 
-Use the [Literature Navigation](#-literature-navigation) to browse papers by research stream, follow each paper's verified arXiv or official publication link, download [`references.bib`](references.bib) for citation management, or inspect [`taxonomy.yaml`](taxonomy.yaml) for the complete machine-readable classification.
+We invite readers to use the [Literature Navigation](#-literature-navigation) to browse papers by research stream and follow each reference to a verified arXiv record or official publication page. We also provide [`references.bib`](references.bib) for citation management and [`taxonomy.yaml`](taxonomy.yaml) for reuse of our classification.
 
 ## 🔍 Search & Review Methodology
 
@@ -28,30 +27,30 @@ Use the [Literature Navigation](#-literature-navigation) to browse papers by res
 
 To provide broad and structured coverage of the rapidly evolving literature on Bandit–LLM interaction, we organized the literature search using the Population–Concept–Context (PCC) framework.
 
-Rather than restricting retrieval to the components of our final taxonomy, PCC was used to define a broad search space around modern LLMs, genuine bandit methods, and their substantive technical interaction.
+Rather than restricting retrieval to the components of our final taxonomy, we used PCC to define a broad search space around modern LLMs, genuine bandit methods, and their substantive technical interaction.
 
 | PCC Element | Scope in This Review |
 |---|---|
-| Population | Modern large language models (LLMs) and LLM-based systems |
-| Concept | Multi-armed bandits and related genuine bandit formulations, algorithms, and sequential decision mechanisms |
-| Context | Substantive technical interaction between LLMs and bandits, either through bandit-based control of the LLM lifecycle or LLM-based augmentation of the bandit decision pipeline |
+| Population | We consider modern large language models (LLMs) and LLM-based systems. |
+| Concept | We focus on multi-armed bandits and related genuine bandit formulations, algorithms, and sequential decision mechanisms. |
+| Context | We require substantive technical interaction between LLMs and bandits, either through bandit-based control of the LLM lifecycle or LLM-based augmentation of the bandit decision pipeline. |
 
-The Population and Concept dimensions were used to construct broad retrieval queries. The Context criterion was primarily applied during title/abstract screening and full-text assessment. This separation was intended to preserve recall during literature identification without prematurely restricting retrieval to the component taxonomy developed later in the review.
+We used the Population and Concept dimensions to construct broad retrieval queries, and we primarily applied the Context criterion during title/abstract screening and full-text assessment. This separation helped us preserve recall during literature identification without prematurely restricting retrieval to the component taxonomy that we developed later in the review.
 
 ### 🔎 Search Strategy
 
-The survey corpus search window was **January 1, 2022–August 15, 2026**. The cutoff defines the paper's corpus snapshot; later repository additions belong to **Post-Survey Updates**.
+We searched the literature published between **January 1, 2022 and August 15, 2026**. We use the latter date as the cutoff for our survey corpus and identify any later repository additions as **Post-Survey Updates**.
 
-Primary literature sources were **Scopus**, **Web of Science Core Collection**, **ACM Digital Library**, **IEEE Xplore**, and **arXiv**. Supplementary discovery and verification used **Google Scholar**, **Semantic Scholar**, backward citation tracing, and forward citation tracing. Together these sources cover machine learning, natural language processing, information retrieval, recommender systems, data mining, operations research, and online learning.
+We searched **Scopus**, **Web of Science Core Collection**, **ACM Digital Library**, **IEEE Xplore**, and **arXiv** as our primary literature sources. We supplemented this search with **Google Scholar**, **Semantic Scholar**, backward citation tracing, and forward citation tracing. By combining these sources, we cover machine learning, natural language processing, information retrieval, recommender systems, data mining, operations research, and online learning.
 
-The canonical Population terms were:
+We used the following canonical Population terms:
 
 ```text
 "large language model" OR "large language models" OR LLM OR LLMs
 OR "language model" OR "language models"
 ```
 
-The canonical Concept terms were:
+We used the following canonical Concept terms:
 
 ```text
 bandit OR "multi-armed bandit" OR "multi armed bandit"
@@ -60,30 +59,30 @@ OR "bandit learning" OR "bandit algorithm" OR "Thompson sampling"
 OR "upper confidence bound"
 ```
 
-Canonical search logic:
+We combined the two groups using the following canonical search logic:
 
 ```text
 (Population terms) AND (Concept terms)
 ```
 
-Database-specific syntax was adapted where required by individual search interfaces. These concepts document a canonical reproducible strategy, not character-for-character historical queries. Taxonomy-specific terms—such as prompting, retrieval, routing, caching, agent orchestration, reward estimation, exploration, and feedback interpretation—were not mandatory conditions in the initial broad query; they were applied during screening and synthesis.
+We adapted the syntax to each database interface. We present these concepts as a canonical reproducible strategy rather than as character-for-character historical queries. We did not require taxonomy-specific terms—such as prompting, retrieval, routing, caching, agent orchestration, reward estimation, exploration, and feedback interpretation—in the initial broad query; we applied them during screening and synthesis.
 
 ### ✅ Eligibility Criteria
 
-**Core principle:** A study was retained only when Bandit–LLM interaction formed a substantive part of its problem formulation, methodology, learning procedure, decision mechanism, or system design.
+**Core principle:** We retained a study only when Bandit–LLM interaction formed a substantive part of its problem formulation, methodology, learning procedure, decision mechanism, or system design.
 
-| Included | Excluded |
+| We included | We excluded |
 |---|---|
-| Modern LLMs or LLM-based systems form part of the method or studied environment. | LLMs or bandits appear only in background, introduction, related work, baselines, or incidental implementation components. |
-| A genuine bandit formulation, algorithm, exploration mechanism, or partial-feedback decision process is present. | “Bandit” is used metaphorically. |
-| Bandits substantively control or adapt an LLM component, or LLMs substantively augment a bandit component. | Generic reinforcement learning is used without a genuine bandit formulation or algorithm. |
-| Theoretical, methodological, empirical, systems, and negative-result studies are eligible. | Older or generic language-model work is included only because it is conceptually related. |
-| Simulated users, proxy tasks, synthetic data, and synthetic environments are eligible when the interaction is methodologically substantive. | The report contains insufficient technical information to determine the substantive interaction. |
-| Peer-reviewed, accepted, forthcoming, and high-quality preprint studies are eligible; no venue restriction is imposed. | Duplicate or superseded versions of the same substantive study are not counted independently. |
+| We include studies in which modern LLMs or LLM-based systems form part of the method or studied environment. | We exclude studies in which LLMs or bandits appear only in background, introduction, related work, baselines, or incidental implementation components. |
+| We include studies with a genuine bandit formulation, algorithm, exploration mechanism, or partial-feedback decision process. | We exclude studies that use “bandit” metaphorically. |
+| We include studies in which bandits substantively control or adapt an LLM component, or LLMs substantively augment a bandit component. | We exclude studies that use generic reinforcement learning without a genuine bandit formulation or algorithm. |
+| We include theoretical, methodological, empirical, systems, and negative-result studies. | We exclude older or generic language-model work included only because it is conceptually related. |
+| We include simulated users, proxy tasks, synthetic data, and synthetic environments when the interaction is methodologically substantive. | We exclude reports with insufficient technical information to determine the substantive interaction. |
+| We include peer-reviewed, accepted, forthcoming, and high-quality preprint studies, and we impose no venue restriction. | We do not count duplicate or superseded versions of the same substantive study independently. |
 
-The final published version was preferred where available. A later conference or journal publication and its earlier preprint were treated as one substantive study unless they clearly constituted distinct technical contributions.
+We preferred the final published version where available. We treated a later conference or journal publication and its earlier preprint as one substantive study unless they clearly constituted distinct technical contributions.
 
-**Operational scope.** For **Bandit-Enhanced Large Language Models**, bandit methods adapt or control computational decisions across Pre-training → Post-training → Utilization → Evaluation. For **LLM-Enhanced Bandits**, LLMs augment Representation → Learning → Decision → Feedback. A study may belong to both directions when both interactions are methodologically substantive.
+**Operational scope.** We define **Bandit-Enhanced Large Language Models** as work in which bandit methods adapt or control computational decisions across Pre-training → Post-training → Utilization → Evaluation. We define **LLM-Enhanced Bandits** as work in which LLMs augment Representation → Learning → Decision → Feedback. We assign a study to both directions when both interactions are methodologically substantive.
 
 ### 🔄 Review Workflow
 
@@ -107,22 +106,22 @@ Component-Level Synthesis
 153 Unique Included Studies
 ```
 
-Candidate studies were first screened from titles and abstracts using the PCC scope. Ambiguous studies were retained for full-text assessment rather than excluded prematurely. For eligible studies, multiple versions of the same substantive work were consolidated, with the final published version preferred where available.
+We first screened candidate studies by title and abstract using the PCC scope. We retained ambiguous studies for full-text assessment rather than excluding them prematurely. For eligible studies, we consolidated multiple versions of the same substantive work and preferred the final published version where available.
 
-Evidence extraction considered the problem formulation, Bandit–LLM intervention mechanism, bandit formulation, LLM integration, theoretical analysis, experimental setting, empirical findings, comparisons and ablations, and reported limitations. This evidence supported component-level synthesis and construction of the bidirectional taxonomy.
+We extracted evidence on the problem formulation, Bandit–LLM intervention mechanism, bandit formulation, LLM integration, theoretical analysis, experimental setting, empirical findings, comparisons and ablations, and reported limitations. We used this evidence to develop our component-level synthesis and bidirectional taxonomy.
 
 ## 🧭 Taxonomy
 
-The literature is organized according to where one technology intervenes in the computational process of the other. **Bandit-Enhanced Large Language Models** follow the LLM lifecycle—Pre-training, Post-training, Utilization, and Evaluation—whereas **LLM-Enhanced Bandits** follow the bandit decision pipeline—Representation, Learning, Decision, and Feedback.
+We organize the literature according to where one technology intervenes in the computational process of the other. For **Bandit-Enhanced Large Language Models**, we follow the LLM lifecycle—Pre-training, Post-training, Utilization, and Evaluation. For **LLM-Enhanced Bandits**, we follow the bandit decision pipeline—Representation, Learning, Decision, and Feedback.
 
-The 153 unique studies correspond to 230 taxonomy assignments because multi-component and bidirectional studies may appear in multiple streams. The machine-readable source of truth is [`taxonomy.yaml`](taxonomy.yaml).
+We allow multi-component and bidirectional studies to appear in multiple research streams. We provide our complete reusable classification in [`taxonomy.yaml`](taxonomy.yaml).
 
 ## 📚 Literature Navigation
 
-A study may appear in multiple research streams when it contains multiple substantive intervention mechanisms. The machine-readable taxonomy contains 153 unique studies and 230 assignments. The current manuscript synthesis tables below contain 64 research streams and 224 reference placements across 152 of those studies; the remaining included study is retained as a clearly identified corpus cross-reference under Post-training.
+We place a study in multiple research streams when it contains multiple substantive intervention mechanisms. In the tables below, we present all 153 studies using the same component-level synthesis as our manuscript.
 
 <!-- BEGIN AUTO-GENERATED LITERATURE NAVIGATION -->
-Browse the component-level synthesis below. Each stage expands into the same four-column structure used in the survey: Component, Research Stream, intervention mechanism, and References. Reference labels link directly to a verified arXiv record or, when no arXiv identifier is available, the official publication page.
+We present each stage using the same four-column structure as our survey: Component, Research Stream, intervention mechanism, and References. We link every reference label directly to a verified arXiv record or, when no arXiv identifier is available, the official publication page.
 
 ### Bandit-Enhanced Large Language Models
 
@@ -207,12 +206,10 @@ Browse the component-level synthesis below. Each stage expands into the same fou
 <tr>
 <td>Adaptive supervision and feedback control</td>
 <td>Select and adapt reward signals, evidence, logged feedback, or response candidates</td>
-<td><a href="https://arxiv.org/abs/2508.13993" title="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization">Duan et al. (2026)</a>; <a href="https://arxiv.org/abs/2605.18899" title="Don&#x27;t Let Bandit Feedback Pull Continual LLM-Recommender Updates Off Target">Kim et al. (2026)</a>; <a href="https://arxiv.org/abs/2410.14001" title="Personalized Adaptation via In-Context Preference Learning">Lau et al. (2024)</a>; <a href="https://arxiv.org/abs/2411.01493" title="Sample-Efficient Alignment for LLMs">Liu et al. (2024)</a>; <a href="https://arxiv.org/abs/2410.01735" title="LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits">Nguyen et al. (2025)</a></td>
+<td><a href="https://arxiv.org/abs/2508.13993" title="Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization">Duan et al. (2026)</a>; <a href="https://arxiv.org/abs/2310.12036" title="A General Theoretical Paradigm to Understand Learning from Human Preferences">Azar et al. (2024)</a>; <a href="https://arxiv.org/abs/2605.18899" title="Don&#x27;t Let Bandit Feedback Pull Continual LLM-Recommender Updates Off Target">Kim et al. (2026)</a>; <a href="https://arxiv.org/abs/2410.14001" title="Personalized Adaptation via In-Context Preference Learning">Lau et al. (2024)</a>; <a href="https://arxiv.org/abs/2411.01493" title="Sample-Efficient Alignment for LLMs">Liu et al. (2024)</a>; <a href="https://arxiv.org/abs/2410.01735" title="LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits">Nguyen et al. (2025)</a></td>
 </tr>
 </tbody>
 </table>
-
-<p><strong>Corpus cross-reference.</strong> <a href="https://arxiv.org/abs/2310.12036" title="A General Theoretical Paradigm to Understand Learning from Human Preferences">Azar et al. (2024)</a> remains included in the survey taxonomy and bibliography but is not assigned to a row in the current manuscript synthesis table.</p>
 
 </details>
 
@@ -632,7 +629,7 @@ Browse the component-level synthesis below. Each stage expands into the same fou
 
 ## 📄 Bibliography
 
-Download [`references.bib`](references.bib) for the bibliographic records used by the survey. The file includes the 153-study corpus together with supporting background and methodological references; corpus membership is determined by [`taxonomy.yaml`](taxonomy.yaml).
+We provide [`references.bib`](references.bib) for the bibliographic records used in our survey. We include the 153-study corpus together with supporting background and methodological references, and we identify the included corpus in [`taxonomy.yaml`](taxonomy.yaml).
 
 ## 🗂️ Repository Structure
 
@@ -640,16 +637,16 @@ Download [`references.bib`](references.bib) for the bibliographic records used b
 .
 ├── README.md                # Methodology and literature navigation
 ├── references.bib           # Survey and supporting references
-├── taxonomy.yaml            # Machine-readable corpus classification
+├── taxonomy.yaml            # Reusable corpus classification
 └── LICENSE
 ```
 
 ## 🤝 Updates / Contributing
 
-The **Survey Corpus Snapshot** is fixed at 153 studies through August 15, 2026. Later work may be added under **Post-Survey Updates**, clearly separated from the frozen snapshot statistics.
+We freeze our **Survey Corpus Snapshot** at 153 studies through August 15, 2026. We may add later work under **Post-Survey Updates**, clearly separated from our frozen snapshot.
 
-Suggestions for missing or newly published work are welcome through issues or pull requests. Please include an authoritative citation, a short explanation of the substantive Bandit–LLM interaction, and a proposed taxonomy location. A background mention of bandits or LLMs alone is not sufficient for inclusion.
+We welcome suggestions for missing or newly published work through issues or pull requests. We ask contributors to include an authoritative citation, a short explanation of the substantive Bandit–LLM interaction, and a proposed taxonomy location. We do not include work that mentions bandits or LLMs only as background.
 
 ## 📝 Citation
 
-If this collection supports your work, please cite the accompanying survey. Complete publication metadata will be added here when the paper is publicly available.
+If you use this collection, please cite our accompanying survey. We will add the complete publication metadata here when our paper is publicly available.
