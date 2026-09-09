@@ -118,12 +118,16 @@ We allow multi-component and bidirectional studies to appear in multiple researc
 
 ## 📚 Literature Navigation
 
-We place a study in multiple research streams when it contains multiple substantive intervention mechanisms. In the tables below, we present all 153 studies using the same component-level synthesis as our manuscript.
+We place a study in multiple research streams when it contains multiple substantive intervention mechanisms. We provide two complementary views: component-level tables for structural comparison and a detailed paper index for title-based browsing. Both views cover all 153 studies.
+
+**Choose a view:** [Component-Level Overview](#component-level-overview) · [Detailed Paper Index](#detailed-paper-index)
 
 <!-- BEGIN AUTO-GENERATED LITERATURE NAVIGATION -->
+### Component-Level Overview
+
 We present each stage using the same four-column structure as our survey: Component, Research Stream, intervention mechanism, and References. We link every reference label directly to a verified arXiv record or, when no arXiv identifier is available, the official publication page.
 
-### Bandit-Enhanced Large Language Models
+#### Bandit-Enhanced Large Language Models
 
 <details>
 <summary><strong>Pre-training</strong> — 2 research streams · 2 papers</summary>
@@ -396,7 +400,7 @@ We present each stage using the same four-column structure as our survey: Compon
 </details>
 
 
-### LLM-Enhanced Bandits
+#### LLM-Enhanced Bandits
 
 <details>
 <summary><strong>Representation</strong> — 8 research streams · 27 papers</summary>
@@ -623,6 +627,507 @@ We present each stage using the same four-column structure as our survey: Compon
 </tr>
 </tbody>
 </table>
+
+</details>
+
+### Detailed Paper Index
+
+We also list every paper as a full bibliographic entry for title-based browsing. We retain the same Direction → Stage → Component → Research Stream organization and link each entry to arXiv or its official publication page.
+
+#### Bandit-Enhanced Large Language Models
+
+<details>
+<summary><strong>Pre-training</strong> — 2 research streams · 2 papers</summary>
+
+##### Pre-training
+
+###### Adaptive data mixing
+
+- Alon Albalak et al. *Efficient Online Data Mixing For Language Model Pre-Training*. arXiv, 2023. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2312.02406)
+
+###### Pre-training configuration optimization
+
+- Iñigo Urteaga et al. *Multi-armed bandits for resource efficient, online optimization of language model pre-training: the use case of dynamic masking*. Findings of ACL, 2023. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2203.13151)
+
+</details>
+
+<details>
+<summary><strong>Post-training</strong> — 7 research streams · 29 papers</summary>
+
+##### Fine-tuning
+
+###### Adaptive curriculum and training-data scheduling
+
+- Van Dai Do et al. *SPaCe: Unlocking Sample-Efficient Large Language Models Training With Self-Pace Curriculum Learning*. Findings of ACL, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2026.findings-acl.171)
+- Xiaodong Lu et al. *Contextual Rollout Bandits for Reinforcement Learning with Verifiable Rewards*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.08499)
+- Darrien M. McKenzie, Nicklas Hansen, and Xiaolong Wang. *Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.19750)
+- Haebin Shin et al. *DynamixSFT: Dynamic Mixture Optimization of Instruction Tuning Collections*. Findings of ACL, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2026.findings-acl.1972)
+- Zairun Yang et al. *Distribution-Value Coevolution for Adaptive RLHF Data Scheduling*. KDD, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3770855.3817990)
+
+###### Online experience and skill control
+
+- Kaan Gönç et al. *User Feedback-based Online Learning for Intent Classification*. ICMI, 2023. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3577190.3614137)
+- Zelin He et al. *ReSkill: Reconciling Skill Creation with Policy Optimization in Agentic RL*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.01619)
+- Xiao Hu et al. *Rethinking Reinforcement fine-tuning of LLMs: A Multi-armed Bandit Learning Perspective*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.14599)
+
+###### Bandit-guided policy learning and co-evolution
+
+- Sanxing Chen et al. *When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.24923)
+- Allen Nie et al. *EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.06238)
+- Thomas Schmied et al. *LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities*. ICLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2504.16078)
+- Yu Xia et al. *Which LLM to Play? Convergence-Aware Online Model Selection with Time-Increasing Bandits*. The Web Conference, 2024. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3589334.3645420)
+
+##### Alignment
+
+###### Active preference acquisition
+
+- Nirjhar Das et al. *Active Preference Optimization for Sample Efficient RLHF*. ECML PKDD, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1007/978-3-032-06096-9_6)
+- Vikranth Dwaracherla et al. *Efficient Exploration for LLMs*. ICML, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2402.00396)
+- Kaixuan Ji, Jiafan He, and Quanquan Gu. *Reinforcement Learning from Human Feedback with Active Queries*. TMLR, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2402.09401)
+- Viraj Mehta et al. *Sample Efficient Preference Alignment in LLMs via Active Exploration*. arXiv, 2023. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2312.00267)
+- Antoine Scheid et al. *Optimal Design for Reward Modeling in RLHF*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.17055)
+
+###### Exploration-aware preference optimization
+
+- Chenjia Bai et al. *Online Preference Alignment for Language Models via Count-based Exploration*. ICLR, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2501.12735)
+- Tengyang Xie et al. *Exploratory Preference Optimization: Harnessing Implicit Q\*-Approximation for Sample-Efficient RLHF*. ICLR, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.21046)
+- Wei Xiong et al. *Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-constraint*. ICML, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2312.11456)
+- Shenao Zhang et al. *Self-Exploring Language Models: Active Preference Elicitation for Online Alignment*. TMLR, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.19332)
+
+###### Policy-coupled online alignment
+
+- Long-Fei Li et al. *Provably Efficient Online RLHF with One-Pass Reward Modeling*. NeurIPS, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.52202/085713-5567)
+- Gen Li and Yuling Yan. *Towards Efficient Online Exploration for Reinforcement Learning with Human Feedback*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.22633)
+
+###### Adaptive supervision and feedback control
+
+- Shaohua Duan et al. *Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.13993)
+- Mohammad Gheshlaghi Azar et al. *A General Theoretical Paradigm to Understand Learning from Human Preferences*. AISTATS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2310.12036)
+- Taesan Kim et al. *Don't Let Bandit Feedback Pull Continual LLM-Recommender Updates Off Target*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.18899)
+- Allison Lau et al. *Personalized Adaptation via In-Context Preference Learning*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.14001)
+- Zichen Liu et al. *Sample-Efficient Alignment for LLMs*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2411.01493)
+- Duy Nguyen et al. *LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits*. NeurIPS, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.01735)
+
+</details>
+
+<details>
+<summary><strong>Utilization</strong> — 23 research streams · 96 papers</summary>
+
+##### Prompting
+
+###### Fixed-pool prompt selection and structured sharing
+
+- Chengshuai Shi et al. *Efficient Prompt Optimization Through the Lens of Best Arm Identification*. NeurIPS, 2024. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.52202/079017-3161)
+- Xiaoqiang Lin et al. *Use Your INSTINCT: INSTruction optimization for LLMs usIng Neural bandits Coupled with Transformers*. ICML, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2310.02905)
+- Zhaoxuan Wu et al. *Prompt Optimization with EASE? Efficient Ordering-aware Automated Selection of Exemplars*. NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.16122)
+- Shuyang Wang, Somayeh Moazeni, and Diego Klabjan. *SOPL: A Sequential Optimal Learning Approach to Automated Prompt Engineering in Large Language Models*. Findings of ACL, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2501.03508)
+- Pingchen Lu et al. *FedPOB: Sample-Efficient Federated Prompt Optimization via Bandits*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.24701)
+- Donghao Li et al. *Efficient Multi-objective Prompt Optimization via Pure-exploration Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.14553)
+- Xiaoqiang Lin et al. *Prompt Optimization with Human Feedback*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.17346)
+- Yuanchen Wu et al. *LLM Prompt Duel Optimizer: Efficient Label-Free Prompt Optimization*. Findings of ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.13907)
+
+###### Prompt generation and refinement
+
+- Rin Ashizawa et al. *Bandit-Based Prompt Design Strategy Selection Improves Prompt Optimizers*. Findings of ACL, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2025.findings-acl.1070)
+- Young-Joon Park et al. *TwinBandit Prompt Optimizer: Adaptive Prompt Optimization via Synergistic Dual MAB-Guided Feedback*. CIKM, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3746252.3760824)
+- Mingze Kong et al. *Meta-Prompt Optimization for LLM-Based Sequential Decision Making*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.00728)
+- Zhi Hong et al. *MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.02630)
+
+###### Contextual and deployment-time prompting
+
+- Zekai Chen, Po-Yu Chen, and Francois Buet-Golfouse. *Online Personalizing White-box LLMs Generation with Neural Bandits*. ICAIF, 2024. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3677052.3698651)
+- Nicole Cho et al. *No One Size Fits All: QueryBandits for Hallucination Mitigation*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.20332)
+- Shion Ishikawa et al. *Progressive Content Refinement with Decaying Reward Joint LinUCB*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.06750)
+- Xiang Li et al. *ALSO: Adversarial Online Strategy Optimization for Social Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.15768)
+- Giovanni Monea et al. *LLMs Are In-Context Bandit Reinforcement Learners*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.05362)
+- Allen Nie et al. *EVOLvE: Evaluating and Optimizing LLMs For In-Context Exploration*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.06238)
+- Aditya Ramesh et al. *Efficient Jailbreak Attack sequences on Large Language Models via Multi-Armed Bandit-based Context switching*. ICLR, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://www.semanticscholar.org/paper/ead828879a0379b248f224321bf4076e7c4b0434)
+
+###### Joint prompt and system optimization
+
+- Jia Fu et al. *AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation*. Findings of ACL, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.19251)
+- Yixuan Li et al. *Online Prompt Selection for Program Synthesis*. AAAI, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2501.05247)
+- Saaduddin Mahmud et al. *Inference-Aware Prompt Optimization for Aligning Black-Box Large Language Models*. AAAI, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.10030)
+- Haruka Kiyohara et al. *Prompt Optimization with Logged Bandit Data*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2504.02646)
+- Haruka Kiyohara et al. *An Off-Policy Learning Approach for Steering Sentence Generation towards Personalization*. RecSys, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3705328.3748088)
+- Halley Young and Nikolaj Björner. *Theory Under Construction: Orchestrating Language Models for Research Software Where the Specification Evolves*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.27209)
+
+##### Retrieval
+
+###### Retrieval strategy and configuration adaptation
+
+- Xiaqiang Tang et al. *MBA-RAG: a Bandit Approach for Adaptive Retrieval-Augmented Generation through Question Complexity*. Proceedings of the 31st International Conference on Computational Linguistics, COLING 2025, Abu Dhabi, UAE, January 19-24, 2025, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2412.01572)
+- Yuhang Dai, Jing Li, and Bohan Li. *Relative Performance Bandits: An Adaptive RAG Framework with Reward-Aware Exploration*. 31th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2025, Hefei, China, December 14-18, 2025, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/ICPADS67057.2025.11322957)
+- Jia Fu et al. *AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation*. Findings of ACL, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.19251)
+
+###### Evidence allocation and selection
+
+- Roxana Petcu et al. *Query Decomposition for RAG: Balancing Exploration-Exploitation*. Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2026 - Volume 1: Long Papers, Rabat, Morocco, March 24-29, 2026, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.18633)
+- Hanzhuo Tan et al. *Prompt-Based Code Completion via Multi-Retrieval Augmented Generation*. ACM TOSEM, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3725812)
+- Linfeng Du et al. *Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.12078)
+
+###### Retrieval computation and dynamic memory control
+
+- Roi Pony et al. *Col-Bandit: Zero-Shot Query-Time Pruning for Late-Interaction Retrieval*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.02827)
+- Junke Zhang et al. *Evolving Skill-Structured Attack Memory Enhances LLM Jailbreaking*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.29237)
+
+##### Routing
+
+###### Contextual model routing
+
+- Xiaoyan Hu, Ho-fung Leung, and Farzan Farnia. *PAK-UCB Contextual Bandit: An Online Learning Approach to Prompt-Aware Selection of Generative Models and LLMs*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.13287)
+- Quang H. Nguyen et al. *MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2407.10834)
+- M. Tsai and Phat Tran. *Reward-Based Online LLM Routing via NeuralUCB*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.30035)
+- Chao-Kai Chiang, Takashi Ishida, and Masashi Sugiyama. *LLM Routing with Dueling Feedback*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.00841)
+- Pranoy Panda et al. *Adaptive LLM Routing under Budget Constraints*. Findings of ACL, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.21141)
+- Zhenghua Bao et al. *OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30736)
+- Ajay Narayanan Sridhar et al. *Correlation-Aware Contextual Bandits with Surrogate Rewards for LLM Routing*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.09015)
+- Son Nguyen, Xinyuan Liu, and Ransalu Senanayake. *CUPID in the Model Zoo: Online Matchmaking for Selecting Your Dream LLM*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.00846)
+- Nihir Chadderwala. *Optimizing Life Sciences Agents in Real-Time using Reinforcement Learning*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2512.03065)
+- Manhin Poon et al. *Online Multi-LLM Selection via Contextual Bandits Under Unstructured Context Evolution*. AAAI, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.17670)
+- Kexin Chu, Dawei Xiang, and Wei Zhang. *Latency-Quality Routing for Functionally Equivalent Tools in LLM Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.14241)
+
+###### Resource-aware and constrained routing
+
+- Quang H. Nguyen et al. *MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2407.10834)
+- Yang Li. *LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.02743)
+- Wang Wei et al. *Learning to Route LLMs from Bandit Feedback: One Policy, Many Trade-offs*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.07429)
+- Thomas Ziller et al. *GreenServ: Energy-Efficient Context-Aware Dynamic Routing for Multi-Model LLM Inference*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.17551)
+- Xiangxiang Dai et al. *Cost-Effective Online Multi-LLM Selection with Versatile Reward Models*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.16587)
+- Yin Huang, Qingsong Liu, and Jie Xu. *Online LLM Selection via Constrained Bandits with Time-Varying Demand*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.17489)
+- Shanglin Wu, Saatvik Kher, and Padhraic Smyth. *Learning to Assign Prediction Tasks to Agents with Capacity Constraints*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.27999)
+- Seoungbin Bae, Junyoung Son, and Dabeen Lee. *Learning to Route and Schedule LLMs from User Retrials via Contextual Queueing Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.02061)
+- Annette Taberner-Miller. *ParetoBandit: Budget-Paced Adaptive Routing for Non-Stationary LLM Serving*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.00136)
+- Ling Zu, Xiyue Peng, and Xin Liu. *BARouter: A Budget-adaptive Online Large Language Model Router Framework*. The Web Conference, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3774904.3792725)
+- Xianzhi Zhang et al. *Adapter-Augmented Bandits for Online Multi-Constrained Multi-Modal Inference Scheduling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.06403)
+- P. Patra et al. *Truthful Reverse Auctions for Adaptive Selection via Contextual Multi-Armed Bandits*. Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.65109/MBRQ7564)
+
+###### Sequential and combinatorial routing
+
+- Baran Atalar. *Neural Bandit Based Optimal LLM Selection for Pipeline of Tasks*. ACM SIGMETRICS Performance Evaluation Review, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.09958)
+- Alexandre Belloni, Yan Chen, and Yehua Wei. *Online Pandora's Box for Contextual LLM Cascading*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.07392)
+- Xiaoyan Hu et al. *PromptWise: Online Learning for Cost-Aware Prompt Assignment in Generative Models*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2505.18901)
+- Xutong Liu et al. *Combinatorial Logistic Online Learning and Its Applications in Nonlinear Networked Systems*. IEEE Trans. Netw., 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/TON.2026.3663325)
+- Jonathan Rau et al. *CoCoMaMa: Contextual Combinatorial Multi-Armed Bandit Router for Multi-Agent Systems with Volatile Arms*. Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://www.semanticscholar.org/paper/2a86869b09d5df9b42629881ce0861f20e4cab20)
+- Jinkun Xu et al. *CES: Combinatorial Experts Selection via Contextual Linear Bandits*. KDD, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3770855.3817902)
+
+###### Composite serving-configuration routing
+
+- Jerry Huang et al. *Context-Aware Assistant Selection for Improved Inference Acceleration with Large Language Models*. EMNLP, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2408.08470)
+- Yunlong Hou et al. *BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2505.15141)
+- Taehyeon Kim, Hojung Jung, and Se-Young Yun. *Multi-Drafter Speculative Decoding with Alignment Feedback*. Findings of ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.05417)
+- Yixuan Li et al. *Online Prompt Selection for Program Synthesis*. AAAI, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2501.05247)
+- Junxiao Ren et al. *CH-RAG: Complexity-Guided Hybrid Retrieval-Augmented for Adaptive LLM Generation*. 2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD), 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/CSCWD68734.2026.11582347)
+- Xiaqiang Tang et al. *Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs*. AAAI, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2412.07618)
+- Kaiyu Huang et al. *UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30898)
+- Shaoang Li and Jian Li. *POLAR: Online Learning for LoRA Adapter Caching and Routing in Edge LLM Serving*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.16583)
+- Vasanth Rao Jadav, Shalini Sudarsan, and Vikram Isanaka. *Cost-Aware LLM Orchestration via Contextual Bandit Learning*. 2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET), 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/ICAISET66439.2026.11542012)
+
+###### Adaptive routing under system change
+
+- Dingyang Chen, Qi Zhang, and Yinglun Zhu. *Efficient Sequential Decision Making with Large Language Models*. EMNLP, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.12125)
+- Shaoang Li and Jian Li. *Near-Optimal Online Deployment and Routing for Streaming LLMs*. ICLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.17254)
+- Xinle Wu and Yao Lu. *Reward Model Routing in Alignment*. ICLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.02850)
+- Yu Xia et al. *Which LLM to Play? Convergence-Aware Online Model Selection with Time-Increasing Bandits*. The Web Conference, 2024. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3589334.3645420)
+- Annette Taberner-Miller. *ParetoBandit: Budget-Paced Adaptive Routing for Non-Stationary LLM Serving*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.00136)
+- Xinyuan Wang et al. *MixLLM: Dynamic Routing in Mixed Large Language Models*. NAACL, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.18482)
+- Xiaqiang Tang et al. *Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs*. AAAI, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2412.07618)
+
+##### Generation
+
+###### Adaptive decoding and inference policies
+
+- Yunlong Hou et al. *BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2505.15141)
+- Aditya Sridhar et al. *TapOut: A Bandit-Based Approach to Dynamic Speculative Decoding*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2511.02017)
+- Chloe Su et al. *Learning Adaptive LLM Decoding*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.09065)
+- Kaiyu Huang et al. *UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30898)
+- Saaduddin Mahmud et al. *Inference-Aware Prompt Optimization for Aligning Black-Box Large Language Models*. AAAI, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.10030)
+
+###### Response- and token-level adaptive generation
+
+- Allison Lau et al. *Personalized Adaptation via In-Context Preference Learning*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.14001)
+- Zikun Qu et al. *T-POP: Test-Time Personalization with Online Preference Feedback*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.24696)
+- Suho Shin et al. *Tokenized Bandit for LLM Decoding and Alignment*. ICML, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.07276)
+
+###### Test-time compute and candidate allocation
+
+- Bowen Zuo and Yinglun Zhu. *Strategic Scaling of Test-Time Compute: A Bandit Learning Approach*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.12721)
+- Sweta Karlekar et al. *Duel-Evolve: Reward-Free Test-Time Scaling via LLM Self-Preferences*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.21585)
+- Duy Nguyen et al. *LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits*. NeurIPS, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2410.01735)
+
+###### Structured intermediate generation control
+
+- Haochen Song et al. *Tailored Behavior-Change Messaging for Physical Activity: Integrating Contextual Bandits and Large Language Models*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.07275)
+- Dezhi Ran et al. *KernelBand: Boosting LLM-based Kernel Optimization with a Hierarchical and Hardware-aware Multi-armed Bandit*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2511.18868)
+
+##### Caching
+
+###### Exact response-cache management
+
+- Hantao Yang et al. *LLM Cache Bandit Revisited: Addressing Query Heterogeneity for Cost-Effective LLM Inference*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.15515)
+
+###### Semantic caching
+
+- Xutong Liu et al. *Semantic Caching for Low-Cost LLM Serving: From Offline Learning to Online Adaptation*. IEEE INFOCOM 2026 - IEEE Conference on Computer Communications, Tokyo, Japan, May 18-21, 2026, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/INFOCOM59046.2026.11571467)
+- Baran Atalar et al. *Continuous Semantic Caching for Low-Cost LLM Serving*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.20021)
+
+###### Model-state caching
+
+- Shaoang Li and Jian Li. *POLAR: Online Learning for LoRA Adapter Caching and Routing in Edge LLM Serving*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.16583)
+
+##### Agent Orchestration
+
+###### Local agent and tool selection
+
+- Nihir Chadderwala. *Optimizing Life Sciences Agents in Real-Time using Reinforcement Learning*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2512.03065)
+- Sheldon Yu et al. *OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.11169)
+- Yuqi Tang et al. *SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.28692)
+- Zhaoyang Guan et al. *Symphony-Coord: Adaptive Routing for Multi-Agent LLM Systems*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.00966)
+- Dian Jin et al. *Personalizing Large Language Model Agents with Small Policy Models*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.00215)
+
+###### Workflow and topology control
+
+- Mohanna Hoveyda et al. *AQA: Adaptive Question Answering in a Society of LLMs via Contextual Multi-Armed Bandit*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2409.13447)
+- Huan Chen et al. *Toward an Organizational Science of Multi-Agent LLM Systems: Decoupling Who, How, and Which Algorithm*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.25446)
+- Vasanth Rao Jadav, Shalini Sudarsan, and Vikram Isanaka. *Cost-Aware LLM Orchestration via Contextual Bandit Learning*. 2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET), 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/ICAISET66439.2026.11542012)
+- Geremy Loachamín Suntaxi et al. *Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30042)
+- Baran Atalar. *Neural Bandit Based Optimal LLM Selection for Pipeline of Tasks*. ACM SIGMETRICS Performance Evaluation Review, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.09958)
+- Xiangxiang Dai et al. *Cost-Effective Online Multi-LLM Selection with Versatile Reward Models*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.16587)
+
+###### Adaptive computation allocation
+
+- Alexandre Belloni, Yan Chen, and Yehua Wei. *Online Pandora's Box for Contextual LLM Cascading*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.07392)
+- Hao Tang et al. *Code Repair with LLMs gives an Exploration-Exploitation Tradeoff*. NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.17503)
+- Sixue Xing et al. *Compute Allocation in Evolutionary Search: From Depth-Breadth to Multi-Armed Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.29268)
+
+###### Trust, verification, and integrity control
+
+- Fanzeng Xia et al. *Beyond Numeric Rewards: In-Context Dueling Bandits with LLM Agents*. Findings of ACL, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2025.findings-acl.519)
+- Halley Young and Nikolaj Björner. *Theory Under Construction: Orchestrating Language Models for Research Software Where the Specification Evolves*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.27209)
+
+</details>
+
+<details>
+<summary><strong>Evaluation</strong> — 4 research streams · 11 papers</summary>
+
+##### Adaptive Evaluation
+
+###### Best-model identification
+
+- Jin Peng Zhou et al. *On Speeding Up Language Model Evaluation*. ICLR, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2407.06172)
+- Elad Tolochinsky, Yaniv Tenzer, and Yaniv Romano. *Valid Best-Model Identification for LLM Evaluation via Low-Rank Factorization*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.10405)
+- Zifan Lyu et al. *Cutting LLM Evaluation Costs with SySRs: A Bandit Algorithm that Provably Exploits Model Similarity*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.07726)
+
+###### Ranking and Pareto identification
+
+- Vilém Zouhar et al. *Dynamically Allocating Evaluation Effort for Model Ranking*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.03437)
+- Bo Xue et al. *Cost-Aware Multi-Objective Bandits: Theory and Application to Budgeted LLM Configuration Evaluation*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.04333)
+
+###### Preference- and judge-based evaluation
+
+- Sarvesh Gharat, Nikhil Karamchandani, and Jayakrishnan Nair. *Cost-Aware Best Arm Identification via Dueling Feedback with Applications to Large Language Models*. Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.65109/GEKA7634)
+- Aadirupa Saha, A. Wagde, and B. Kveton. *LLM-as-Judge on a Budget*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.15481)
+
+###### Adaptive diagnostic evaluation
+
+- Xiangxiang Dai et al. *A Multi-Agent Conversational Bandit Approach to Online Evaluation and Selection of User-Aligned LLM Responses*. AAAI, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1609/aaai.v40i44.41064)
+- Deng Pan et al. *Context Attribution with Multi-Armed Bandit Optimization*. Findings of ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2506.19977)
+- Akshay Krishnamurthy et al. *Can large language models explore in-context?* NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2403.15371)
+- Sweta Karlekar et al. *Duel-Evolve: Reward-Free Test-Time Scaling via LLM Self-Preferences*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.21585)
+
+</details>
+
+#### LLM-Enhanced Bandits
+
+<details>
+<summary><strong>Representation</strong> — 8 research streams · 27 papers</summary>
+
+##### Context Representation
+
+###### Semantic context encoding
+
+- Ali Baheri and Cecilia O. Alm. *LLMs-augmented Contextual Bandit*. arXiv, 2023. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2311.02268)
+- Xiaoqiang Lin et al. *Use Your INSTINCT: INSTruction optimization for LLMs usIng Neural bandits Coupled with Transformers*. ICML, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2310.02905)
+- Vikranth Dwaracherla et al. *Efficient Exploration for LLMs*. ICML, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2402.00396)
+- Kaan Gönç et al. *User Feedback-based Online Learning for Intent Classification*. ICMI, 2023. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3577190.3614137)
+
+###### Task-adapted context representation
+
+- Xinyuan Wang et al. *MixLLM: Dynamic Routing in Mixed Large Language Models*. NAACL, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.18482)
+- Nicole Cho et al. *No One Size Fits All: QueryBandits for Hallucination Mitigation*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.20332)
+- Hanzhuo Tan et al. *Prompt-Based Code Completion via Multi-Retrieval Augmented Generation*. ACM TOSEM, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3725812)
+- Xiaqiang Tang et al. *Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs*. AAAI, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2412.07618)
+- Xinle Wu and Yao Lu. *Reward Model Routing in Alignment*. ICLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.02850)
+
+###### Stateful and trajectory-aware representation
+
+- Xiang Li et al. *ALSO: Adversarial Online Strategy Optimization for Social Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.15768)
+- Sheldon Yu et al. *OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.11169)
+- Yuqi Tang et al. *SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.28692)
+
+###### Objective- and modality-aware representation
+
+- Kaiyu Huang et al. *UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30898)
+- Zeyu Zhang et al. *Steering Frozen LLMs: Adaptive Social Alignment via Online Prompt Routing*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.15647)
+- Xianzhi Zhang et al. *Adapter-Augmented Bandits for Online Multi-Constrained Multi-Modal Inference Scheduling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.06403)
+
+##### Action Modeling
+
+###### Semantic action representation
+
+- Zhaoxuan Wu et al. *Prompt Optimization with EASE? Efficient Ordering-aware Automated Selection of Exemplars*. NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2405.16122)
+- Donghao Li et al. *Efficient Multi-objective Prompt Optimization via Pure-exploration Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.14553)
+- Chao-Kai Chiang, Takashi Ishida, and Masashi Sugiyama. *LLM Routing with Dueling Feedback*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.00841)
+- Kaiyu Huang et al. *UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30898)
+
+###### Consequence-based action similarity
+
+- Haruka Kiyohara et al. *Prompt Optimization with Logged Bandit Data*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2504.02646)
+- Haruka Kiyohara et al. *An Off-Policy Learning Approach for Steering Sentence Generation towards Personalization*. RecSys, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3705328.3748088)
+
+###### Relational and structured action modeling
+
+- Van Dai Do et al. *SPaCe: Unlocking Sample-Efficient Large Language Models Training With Self-Pace Curriculum Learning*. Findings of ACL, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2026.findings-acl.171)
+- Darrien M. McKenzie, Nicklas Hansen, and Xiaolong Wang. *Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.19750)
+- Zhi Hong et al. *MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2603.02630)
+
+###### Dynamic action-space construction
+
+- Shion Ishikawa et al. *Progressive Content Refinement with Decaying Reward Joint LinUCB*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.06750)
+- Zelin He et al. *ReSkill: Reconciling Skill Creation with Policy Optimization in Agentic RL*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.01619)
+- Sweta Karlekar et al. *Duel-Evolve: Reward-Free Test-Time Scaling via LLM Self-Preferences*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.21585)
+- Junke Zhang et al. *Evolving Skill-Structured Attack Memory Enhances LLM Jailbreaking*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.29237)
+
+</details>
+
+<details>
+<summary><strong>Learning</strong> — 8 research streams · 20 papers</summary>
+
+##### Warm Start
+
+###### Synthetic-interaction pretraining
+
+- Parand Alamdari, Yanshuai Cao, and Kevin Wilson. *Jump Starting Bandits with LLM-Generated Prior Knowledge*. EMNLP, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.19317)
+- Adam Bayley et al. *Jump Start or False Start? A Theoretical and Empirical Evaluation of LLM-initialized Bandits*. TMLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.02527)
+
+###### Prior-based initialization
+
+- Qing Feng et al. *LLM-Informed Bayesian Content Exploration in Ultra-Recency Recommendation*. SIGIR, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1145/3805712.3808498)
+- E. Lee et al. *LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2608.03382)
+- Xinle Wu and Yao Lu. *Reward Model Routing in Alignment*. ICLR, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.02850)
+
+###### Guided initialization and early interaction
+
+- Shaohua Duan et al. *Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2508.13993)
+- Dingyang Chen, Qi Zhang, and Yinglun Zhu. *Efficient Sequential Decision Making with Large Language Models*. EMNLP, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.12125)
+- Sheldon Yu et al. *OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.11169)
+
+##### Reward Estimation
+
+###### LLM-based outcome modeling
+
+- Nicolò Felicioni et al. *On the Importance of Uncertainty in Decision-Making with Large Language Models*. TMLR, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2404.02649)
+- Jiahang Sun et al. *Large Language Model-Enhanced Multi-Armed Bandits*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.01118)
+- Uljad Berdica et al. *When Do We Need LLMs? A Diagnostic for Language-Driven Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.05859)
+
+###### Proxy augmentation and correction
+
+- Parand Alamdari, Yanshuai Cao, and Kevin Wilson. *Jump Starting Bandits with LLM-Generated Prior Knowledge*. EMNLP, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2406.19317)
+- M.N. Pershin et al. *Calibration-Gated LLM Pseudo-Observations for Online Contextual Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.14961)
+- Tianyi Ma et al. *Best-Arm Identification with Generative Proxy*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.06879)
+- Ruicheng Ao et al. *Best Arm Identification with LLM Judges and Limited Human*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.21471)
+
+###### Language-to-reward construction
+
+- Nikhil Behari et al. *A Decision-Language Model (DLM) for Dynamic Restless Multi-Armed Bandit Tasks in Public Health*. NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2402.14807)
+- Shresth Verma et al. *Balancing Act: Prioritization Strategies for LLM-Designed Restless Bandit Rewards*. GameSec, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2408.12112)
+
+###### Semantic reward surrogates
+
+- Nicole Cho et al. *No One Size Fits All: QueryBandits for Hallucination Mitigation*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.20332)
+- Linfeng Du et al. *Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.12078)
+- Sweta Karlekar et al. *Duel-Evolve: Reward-Free Test-Time Scaling via LLM Self-Preferences*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2602.21585)
+
+##### Environment Modeling
+
+###### Language-mediated posterior modeling
+
+- Dilip Arumugam and Thomas L. Griffiths. *Toward Efficient Exploration by Large Language Model Agents*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2504.20997)
+
+</details>
+
+<details>
+<summary><strong>Decision</strong> — 8 research streams · 13 papers</summary>
+
+##### Exploration
+
+###### Uncertainty-aware exploration
+
+- Nicolò Felicioni et al. *On the Importance of Uncertainty in Decision-Making with Large Language Models*. TMLR, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2404.02649)
+- Jiahang Sun et al. *Large Language Model-Enhanced Multi-Armed Bandits*. ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.01118)
+- Uljad Berdica et al. *When Do We Need LLMs? A Diagnostic for Language-Driven Bandits*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.05859)
+
+###### Semantic action-space restriction
+
+- Keegan Harris and Aleksandrs Slivkins. *Should You Use Your Large Language Model to Explore or Exploit?* arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.00225)
+
+###### Direct exploration control
+
+- J. de Curtò et al. *LLM-Informed Multi-Armed Bandit Strategies for Non-Stationary Environments*. Electronics, 2023. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.3390/electronics12132814)
+- Sanxing Chen et al. *When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2509.24923)
+
+###### Language-mediated model-based exploration
+
+- Dilip Arumugam and Thomas L. Griffiths. *Toward Efficient Exploration by Large Language Model Agents*. arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2504.20997)
+
+##### Action Selection
+
+###### Direct LLM action selection
+
+- Jawad Hazime and Junaid Farooq. *Evaluation of LLM Powered Agentic AI for Solving Multi-Arm Bandit Problems*. IEEE COINS, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1109/COINS65080.2025.11125743)
+- Keegan Harris and Aleksandrs Slivkins. *Should You Use Your Large Language Model to Explore or Exploit?* arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.00225)
+- Fanzeng Xia et al. *Beyond Numeric Rewards: In-Context Dueling Bandits with LLM Agents*. Findings of ACL, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2025.findings-acl.519)
+
+###### Confidence-gated and validated selection
+
+- Junyu Cao et al. *LIBRA: Language Model Informed Bandit Recourse Algorithm for Personalized Treatment Planning*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2601.11905)
+- Fanzeng Xia et al. *Beyond Numeric Rewards: In-Context Dueling Bandits with LLM Agents*. Findings of ACL, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.18653/v1/2025.findings-acl.519)
+
+###### Candidate generation and restricted selection
+
+- Keegan Harris and Aleksandrs Slivkins. *Should You Use Your Large Language Model to Explore or Exploit?* arXiv, 2025. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2502.00225)
+- Zichen Liu et al. *Sample-Efficient Alignment for LLMs*. arXiv, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2411.01493)
+
+###### Proxy- and diagnosis-guided selection
+
+- Tianyi Ma et al. *Best-Arm Identification with Generative Proxy*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2607.06879)
+- Geremy Loachamín Suntaxi et al. *Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30042)
+
+</details>
+
+<details>
+<summary><strong>Feedback</strong> — 4 research streams · 7 papers</summary>
+
+##### Feedback Interpretation
+
+###### Scalar and binary judging
+
+- Kexin Chu, Dawei Xiang, and Wei Zhang. *Latency-Quality Routing for Functionally Equivalent Tools in LLM Agents*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.14241)
+- Aditya Ramesh et al. *Efficient Jailbreak Attack sequences on Large Language Models via Multi-Armed Bandit-based Context switching*. ICLR, 2025. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://www.semanticscholar.org/paper/ead828879a0379b248f224321bf4076e7c4b0434)
+
+###### Pairwise preference interpretation
+
+- Yuanchen Wu et al. *LLM Prompt Duel Optimizer: Efficient Label-Free Prompt Optimization*. Findings of ACL, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2510.13907)
+
+###### Semantic feedback shaping and propagation
+
+- Son Nguyen, Xinyuan Liu, and Ransalu Senanayake. *CUPID in the Model Zoo: Online Matchmaking for Selecting Your Dream LLM*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2606.00846)
+- Shengbo Wang, Hong Sun, and Ke Li. *Preference Is More than Comparisons: Rethinking Dueling Bandits with Augmented Human Feedback*. AAAI, 2026. [![Paper](https://img.shields.io/badge/Paper-View-539AB9?style=flat-square)](https://doi.org/10.1609/aaai.v40i31.39852)
+
+###### Structured diagnosis and attribution
+
+- Nikhil Behari et al. *A Decision-Language Model (DLM) for Dynamic Restless Multi-Armed Bandit Tasks in Public Health*. NeurIPS, 2024. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2402.14807)
+- Geremy Loachamín Suntaxi et al. *Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection*. arXiv, 2026. [![arXiv](https://img.shields.io/badge/arXiv-View-B31B1B?style=flat-square)](https://arxiv.org/abs/2605.30042)
 
 </details>
 <!-- END AUTO-GENERATED LITERATURE NAVIGATION -->
